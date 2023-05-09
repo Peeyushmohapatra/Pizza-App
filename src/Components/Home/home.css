@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.homeContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Lobster', cursive;
+}
+
+.leftContainer{
+    height: 100%;
+    width: 15%;
+}
+
+.heading{
+    font-size: 3.2rem;
+    letter-spacing: .2rem;
+}
+
+.rightContainer{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://e0.pxfuel.com/wallpapers/203/589/desktop-wallpaper-pizza-high-quality-high-definition-high-cool-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.innerRightcontainer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.575);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7rem;
+    gap: 2.5rem;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.inputContainer input{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.inputContainer button{
+    height: 50px;
+    width: 15%;
+    background-color: rgb(200,77,40);
+    color: white;
+    font-size: xx-small;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.lestContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.locationContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.fa-sharp{
+    color: rgb(245,169,55);
+}
+

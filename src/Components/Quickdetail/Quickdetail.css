@@ -1,0 +1,72 @@
+.quickdetail{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249,250,246);
+
+}
+
+.finalDetailcontainer{
+    height: 55%;
+    width: 60%;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    gap: 3rem;
+}
+
+.button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(246,172,41);
+    color: white;
+    height: 12%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0% 100% 0% 100% / 0% 0% 100% 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.leftDiv{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(246,247,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv img{
+    height: 90%;
+    width: 90%;
+}
+
+.rightDiv{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightDiv p{
+    color: rgb(156, 154, 154);
+}
+
+.button-one{
+    height: 50px;
+    width: 170px;
+    font-size: .6rem;
+    font-weight: bold;
+    background-color: rgb(200,77,40);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

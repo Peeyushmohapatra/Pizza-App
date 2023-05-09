@@ -1,0 +1,80 @@
+.successPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.watermark{
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    color: rgba(128, 128, 128, 0.308);
+}
+
+.orderPage{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.543);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.orderPage img{
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.tick{
+    color: green;
+    font-size: 4rem;
+}
+
+.homepage{
+    height:50px;
+    width: 200px;
+    background-color: rgb(200,77,40);
+    border: none;
+    color: white;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 1.2rem;
+    color: rgb(255,253,248);
+    font-weight: 700;
+}
+
+.inch{
+        font-size: 1.2rem;
+        color: rgb(255,253,248);
+        font-weight: 700;
+
+}
+.contact{
+        font-size: 1.2rem;
+        color: rgb(255,253,248);
+        font-weight: 700;
+
+}
+.slices{
+        font-size: 1.2rem;
+        color: rgb(255,253,248);
+        font-weight: 700;
+
+}
+.toppings{
+        font-size: 1.2rem;
+        color: rgb(255,253,248);
+        font-weight: 700;
+}
+
+.userData{
+    color: rgb(198,232,241);
+    font-weight: 600;
+}

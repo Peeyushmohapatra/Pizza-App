@@ -1,0 +1,26 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    box-shadow: 0 0 10px black;
+}
+
+.navbarLogo{
+    height: 100%;
+    width: 12.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarLogo img{
+    height: 40%;
+}
+
+.slice{
+    font-size: 2rem;
+    color: black;
+}
